@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    table{
+        background-color: bisque;
+        width: 50%;
+        padding: 20px;
+        
+    }
+    form{
+        font-size: medium;
+    }
+h1{
+    text-align: center;
+}
+td{
+    vertical-align: top;
+}
+
+    </style>
+</head>
+<body>
+    <h1>STUDENTS REGISTRATION FORM</h1>
+    <div>
+    <form >
+        <table>
+        <tr>
+            <td>PASSWORD</td>
+            <td><input class="form-control" type="password" class="form-control"></td>
+        </tr>
+        <tr>
+            <td>CHOOSE PHOTO</td>
+            <td><input class="form-control" type ="file"></td>
+        </tr>
+        <tr>
+            <td>LAST NAME</td>
+            <td><input class="form-control" type="text"></td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td><input class="form-control" type="date"></td>
+        </tr>
+         <tr>
+            <td>EMAIL ID</td>
+            <td><input class="form-control" type="email"></td>
+         </tr>
+         <tr>
+            <td>MOBILE NUMBER</td>
+            <td><input class="form-control" type="text"></td>
+         </tr>
+         <tr>
+            <td>Gender</td>
+            <td><input type="radio" id="gender" name="gender" value="male">male
+            <input type="radio" id="gender" name="gender" value="female">female</td>
+         </tr>
+         <tr>
+         <td>ADDRESS</td>
+         <td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+         </tr>
+         <tr>
+            <td>CITY</td>
+            <td><input class="form-control" type="text"></td>
+         </tr>
+         <tr>
+            <td>PINCODE</td>
+            <td><input class="form-control" type="text" maxlength="6"></td>
+         </tr>
+         <tr>
+            <td>STATE</td>
+            <td><input class="form-control" type="text"></td>
+         </tr>
+         <tr>
+            <td>COUNTRY</td>
+            <td><select name="" id="">
+                <option value="">india</option>
+                <option value="">america</option>
+                <option value="">japan</option>
+            </select></td>
+         </tr>
+         <tr>
+            <td>HOBBIES</td>
+            <td><input type="checkbox">drawing
+                <input type="checkbox">singing
+                <input type="checkbox">dancing
+                <input type="checkbox">sketching 
+                <input type="checkbox">others           
+            </td>
+         </tr>
+         <tr>
+            <td>Qualification</td>
+            <td>
+                <table>
+                    <tr>
+                        <th>sl.no</th>
+                        <th>examination</th>
+                        <th>board</th>
+                        <th>percentage</th>
+                        <th>year of passing</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>class x</td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>class XII</td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>graduation</td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>masters</td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                        <td><input class="form-control" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>courses applied for</td>
+                        <td>
+                            <input type="radio" name="courses applied for" value="bca">bca
+                            <input type="radio" name="courses applied for" value="b com">bcom
+                            <input type="radio" name="courses applied for" value="b sc">b sc
+                            <input type="radio" name="courses applied for" value="ba">ba                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                        <td><input type="reset"></td>
+                    </tr>
+                </table>
+            </td>
+         </tr>
+    </table>
+    </form>
+    </div>
+</body>
+</html>
